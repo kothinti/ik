@@ -256,11 +256,11 @@ var int_phone3;
           
           //Zap end point for step 1
           var step1Data = {
-            "first_name": $('.wr__firstname').val(), 
-            "last_name": $('.wr__lastname').val(),
-            "email_id": $('.email').val(),
-            "bye_calendly_type": $('.bye-calendly-type').val(),
-            "webinar_type": $('.webinar-type').val(),
+            "First Name": $('.wr__firstname').val(), 
+            "Last Name": $('.wr__lastname').val(),
+            "Email Address": $('.email').val(),
+            "ByeCalendlyType": $('.bye-calendly-type').val(),
+            "webinar-type": $('.webinar-type').val(),
             
             "utm_source": $('.utm_source').val(),
             "utm_medium": $('.utm_medium').val(),
